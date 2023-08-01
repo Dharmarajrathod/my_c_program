@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-	int size;
+	float size;
 	printf("Enter the side of square:- ");
-	scanf("%d",&size);
-	printf("The area of square is %d",size * size);
+	scanf("%f",&size);
+	printf("The area of square is %f",size * size);
 	return 0;
 }

@@ -3,9 +3,8 @@ int main(){
 	int i;
 	printf("Enter a number :- ");
 	scanf("%d",&i);
-	int sum =1;
-	for(int n=1;n<=i;n++){
-		sum = sum * n;
+	for(int n=10;n>=1;n--){
+		printf("\nTable is :- %d",i*n);
 	}
-	printf("\nSum is :- %d",sum);
+
 }

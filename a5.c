@@ -8,5 +8,9 @@ int main(){
 		sum = sum + n;
 		a = sum;
 	}
-	printf("Sum is :- %d",a);
+	printf("\nSum is :- %d",a);
+	for(int m=i;m>=0;m--){
+		printf("\nReverse is:- ");
+		printf("%d",m);
+	}
 }
